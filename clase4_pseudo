@@ -1,0 +1,197 @@
+class Automovil:
+	{
+		// Atributos
+		private Marca: String
+		private Modelo: String
+		private Color: String
+		private Velocidad_maxima: Int
+		private Velocidad: Int
+		private Año: String
+		private kms: int
+
+		// Constructor de la clase
+		public Automovil(velocidad_m: Int, color_n: String, marca_n:String, modelo_n:String){
+			Marca = marca_n
+			Modelo = modelo_n
+			Color = color_n
+			Velocidad_maxima = velocidad_m
+			Velocidad = 0
+			Año = 2023
+			kms = 0
+		}
+		
+		// Sobrecargar constructor
+		public Automovil(velocidad_m, Int, kms: Int, año: Int, color_n:String, marca_:String, modelo_n:String){
+			Marca = marca_n
+			Modelo = modelo_n
+			Color = color_n
+			Velocidad_maxima = velocidad_m
+			Velocidad = 0
+			Kms = kms
+			Año = año
+		}
+
+
+
+		public function Acelerar(kms:int){
+			si velocidad + kms <= velocidad_maxima {
+				velocidad = velocidad + kms
+			}
+			sino {
+				velocidad = velocidad_maxima
+			}
+		}
+
+		// Sobrecargar acelerar
+		public function Acelerar(kms: Int, tiene_Nitro: Boolean) {
+			si tiene_Nitro == Verdadero {
+				acelerar(kms * 2)
+			}
+			sino {
+				acelerar(kms)
+			}
+		}
+
+		public function Frenar(kms: Int) {
+			si velocidad - kms < 0 {
+				velocidad = 0
+			}
+			sino {
+				velocidad = velocidad - kms
+				}
+		}
+
+
+
+		public function obtener_velocidad() {
+			return Velocidad
+		}
+
+		public function frenar(kms:int){
+			velocidad = velocidad - kms
+		}
+
+		public set_color(color_nuevo: String) {
+			Color = color_nuevo
+		}
+
+		public get_color(){
+			return color
+		}
+
+	}
+
+
+fordFiesta = new Automovil(170, "Blanco", "Ford", "Ka")  // velocidad = 0
+fordFiesta.set_color("Blanco")
+fordFiesta.Frenar(50)
+fordFiesta.acelerar(10, True)   // velocidad = 20
+fordFiesta.acelerar(50, True)    // velocidad = 120
+fordFiesta.acelerar(80)    // velocidad = 170
+
+fordFiesta.Marca = "Ford"
+fordFiesta.Modelo = "Fiesta S"
+fordFiesta.acelerar(206000)
+fordFiesta.obtener_velocidad()
+
+****************************************************************************************************
+
+// RELACIONES
+
+Class Localidad {
+	private nombre: String
+	private CP: Int
+
+	public Localidad(nombre_n: String, cod_postal:Int) {
+		nombre = nombre_n
+		CP = cod_postal
+	}
+
+}
+
+
+
+class cliente{
+	private nombre: String
+	private apellido: String
+	private direccion: String
+	private localidad: Localidad
+
+	public Cliente(nombre_cliente: String, apellido_cliente:String, localidad_cliente:Localidad) {
+		nombre = nombre_cliente
+		apellido = apellido_cliente
+		localidad = localidad_cliente
+	}
+
+	public Set_localidad(localidad_n: Localidad) {
+		localidad = localidad_n
+	}
+
+
+}
+
+lujan = new Localidad("Luján", 6555)
+mateo = new Cliente("Mateo", "López", lujan)
+rio_cuarto = new Localidad("Río Cuarto", 5800)
+mateo.Set_localidad(rio_cuarto)
+
+
+*********************************************************************************************
+
+class Estudiante 
+	{
+		private num_legajo: Int
+		private nivel_lectivo: String
+
+		public Estudiante(nombre:String) {
+			set_num_legajo()
+		}
+
+		private function set_num_legajo(numero: Int){
+			if (numero > 0) {
+				num_legajo = numero
+			}
+			else {
+				num_legajo = 0
+			}
+		}
+
+		public function set_nivel_lectivo(nivel: String) {
+			if (nivel == "primario" or nivel == "secundario" or nivel == "terciario") {
+				nivel_lectivo = nivel
+			}
+			else {
+				nivel_lectivo = "primario"
+			}
+		}
+
+
+	}
+
+emilio_n = new Estudiante()
+emilio_n.set_num_legajo(9)
+emilio_n.set_nivel_lectivo("Teclado")
+
+
+*************************************************************************************************************
+
+class Estudio 
+{
+	private nombre: String
+	private direccion: String
+	...
+
+	//constructor
+	public function Estudio(nombre_n:String, direccion_n:String) {
+		nombre = nombre_n
+		direccion = direccion_n
+	}
+
+	public Set_nombre(nombre_n: String) {
+		nombre = nombre_n
+	}
+
+}
+
+contab1 = new Estudio("Estudio Alvear", "Alvear 135")   // nombre = "Estudio Alvear"
+contab1.Set_nombre("Estudio Roca")                      // nombre = "Estudio Roca"

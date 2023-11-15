@@ -1,0 +1,86 @@
+class Automovil:
+	{
+		// Atributos
+		private Marca: String
+		private Modelo: String
+		private Color: String
+		private Velocidad_maxima: Int
+		private Velocidad: Int
+		private Año: String
+
+		// Constructor de la clase
+		public Automovil(velocidad_m: Int, color_n: String, marca_n:String, modelo_n:String){
+			Marca = marca_n
+			Modelo = modelo_n
+			Color = color_n
+			Velocidad_maxima = velocidad_m
+			Velocidad = 0
+			Año = 2023
+		}
+
+		public function acelerar(kms:int){
+			velocidad = velocidad + kms
+		}
+
+		public function obtener_velocidad() {
+			return Velocidad
+		}
+
+		public function frenar(kms:int){
+			velocidad = velocidad - kms
+		}
+
+		public set_color(color_nuevo: String) {
+			Color = color_nuevo
+		}
+
+		public get_color(){
+			return color
+		}
+
+	}
+
+class Paciente{
+	private telefono: String
+
+
+
+
+}
+
+class Estudiante {
+	private num_legajo: Int
+	private nivel_lectivo: String
+
+	private function set_num_legajo(numero: Int){
+		if (numero > 0) {
+			num_legajo = numero
+		}
+		else {
+			num_legajo = 0
+		}
+	}
+
+	public function set_nivel_lectivo(nivel: String) {
+		if (nivel == "primario" or nivel == "secundario" or nivel == "terciario") {
+			nivel_lectivo = nivel
+		}
+		else {
+			nivel_lectivo = "primario"
+		}
+	}
+
+
+}
+
+emilio_n = new Estudiante()
+emilio_n.set_num_legajo(9)
+emilio_n.set_nivel_lectivo("Teclado")
+
+
+fordFiesta = new Automovil(170, "Blanco", "Ford", "Ka")
+fordFiesta.set_color("Blanco")
+fordFiesta.Marca = "Ford"
+fordFiesta.Modelo = "Fiesta S"
+fordFiesta.acelerar(206000)
+fordFiesta.obtener_velocidad()
