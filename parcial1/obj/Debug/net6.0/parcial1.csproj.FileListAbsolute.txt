@@ -1,0 +1,15 @@
+D:\Usuario\1 Programacion\ISTEA\Desarrollo de software\1ER año\2DO CUATRI\POO\Practicas - github\parcial1\bin\Debug\net6.0\parcial1.exe
+D:\Usuario\1 Programacion\ISTEA\Desarrollo de software\1ER año\2DO CUATRI\POO\Practicas - github\parcial1\bin\Debug\net6.0\parcial1.deps.json
+D:\Usuario\1 Programacion\ISTEA\Desarrollo de software\1ER año\2DO CUATRI\POO\Practicas - github\parcial1\bin\Debug\net6.0\parcial1.runtimeconfig.json
+D:\Usuario\1 Programacion\ISTEA\Desarrollo de software\1ER año\2DO CUATRI\POO\Practicas - github\parcial1\bin\Debug\net6.0\parcial1.dll
+D:\Usuario\1 Programacion\ISTEA\Desarrollo de software\1ER año\2DO CUATRI\POO\Practicas - github\parcial1\bin\Debug\net6.0\parcial1.pdb
+D:\Usuario\1 Programacion\ISTEA\Desarrollo de software\1ER año\2DO CUATRI\POO\Practicas - github\parcial1\obj\Debug\net6.0\parcial1.csproj.AssemblyReference.cache
+D:\Usuario\1 Programacion\ISTEA\Desarrollo de software\1ER año\2DO CUATRI\POO\Practicas - github\parcial1\obj\Debug\net6.0\parcial1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Usuario\1 Programacion\ISTEA\Desarrollo de software\1ER año\2DO CUATRI\POO\Practicas - github\parcial1\obj\Debug\net6.0\parcial1.AssemblyInfoInputs.cache
+D:\Usuario\1 Programacion\ISTEA\Desarrollo de software\1ER año\2DO CUATRI\POO\Practicas - github\parcial1\obj\Debug\net6.0\parcial1.AssemblyInfo.cs
+D:\Usuario\1 Programacion\ISTEA\Desarrollo de software\1ER año\2DO CUATRI\POO\Practicas - github\parcial1\obj\Debug\net6.0\parcial1.csproj.CoreCompileInputs.cache
+D:\Usuario\1 Programacion\ISTEA\Desarrollo de software\1ER año\2DO CUATRI\POO\Practicas - github\parcial1\obj\Debug\net6.0\parcial1.dll
+D:\Usuario\1 Programacion\ISTEA\Desarrollo de software\1ER año\2DO CUATRI\POO\Practicas - github\parcial1\obj\Debug\net6.0\refint\parcial1.dll
+D:\Usuario\1 Programacion\ISTEA\Desarrollo de software\1ER año\2DO CUATRI\POO\Practicas - github\parcial1\obj\Debug\net6.0\parcial1.pdb
+D:\Usuario\1 Programacion\ISTEA\Desarrollo de software\1ER año\2DO CUATRI\POO\Practicas - github\parcial1\obj\Debug\net6.0\parcial1.genruntimeconfig.cache
+D:\Usuario\1 Programacion\ISTEA\Desarrollo de software\1ER año\2DO CUATRI\POO\Practicas - github\parcial1\obj\Debug\net6.0\ref\parcial1.dll
